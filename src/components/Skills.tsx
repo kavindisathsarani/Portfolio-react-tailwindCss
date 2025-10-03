@@ -51,7 +51,7 @@
 //   );
 // }
 
-import { portfolioData } from '../data/portfolio';
+
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 import { Code, Database, Server, Palette, Cpu, Zap } from 'lucide-react';
 import { useState, useEffect } from 'react';

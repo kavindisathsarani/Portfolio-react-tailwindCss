@@ -95,21 +95,47 @@ export const portfolioData = {
     //     "Learned modern development practices"
     //   ]
     // }
-      {
-      year: "2023 – Present",
-      degree: "Graduate Diploma in Software Engineering",
-      institution: "Institute of Software Engineering (IJSE)",
-    },
+
+
+
+    //   {
+    //   year: "2023 – Present",
+    //   degree: "Graduate Diploma in Software Engineering",
+    //   institution: "Institute of Software Engineering (IJSE)",
+    // },
+    // {
+    //   year: "2022 – 2023",
+    //   degree: "G.C.E. Advanced Level (Maths Stream)",
+    //   institution: "Janadhipathi Balika Vidyalaya",
+    // },
+    // {
+    //   year: "2018",
+    //   degree: "G.C.E. Ordinary Level",
+    //   institution: "Janadhipathi Balika Vidyalaya",
+    // },
+
+     {
+    year: "Pending",
+    degree: "Bachelor of Science (Hons) in Computer Science",
+    institution: "University of Bolton",
+  },
+
     {
-      year: "2022 – 2023",
-      degree: "G.C.E. Advanced Level (Maths Stream)",
-      institution: "Janadhipathi Balika Vidyalaya",
-    },
-    {
-      year: "2018",
-      degree: "G.C.E. Ordinary Level",
-      institution: "Janadhipathi Balika Vidyalaya",
-    },
+    year: "2023 – Present",
+    degree: "Graduate Diploma in Software Engineering",
+    institution: "Institute of Software Engineering (IJSE)"
+  },
+  {
+    year: "2022 – 2023",
+    degree: "G.C.E. Advanced Level (Maths Stream)",
+    institution: "Janadhipathi Balika Vidyalaya"
+  },
+ 
+  {
+    year: "2018",
+    degree: "G.C.E. Ordinary Level",
+    institution: "Janadhipathi Balika Vidyalaya"
+  }
   ],
 
   projects: [
@@ -119,7 +145,7 @@ export const portfolioData = {
     image: "https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=800",
     tags: ["React", "Node.js", "MongoDB", "JWT", "Tailwind"],
     liveUrl: "#",
-    githubUrl: "https://github.com/kavindisathsarani/GlowUp"
+    githubUrl: "https://github.com/kavindisathsarani/GlowUp-Salon.git"
   },
    {
     title: "FuelWise",
@@ -145,7 +171,7 @@ export const portfolioData = {
     image: "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=800",
     tags: ["React Native", "Express.js", "TypeScript"],
     liveUrl: "#",
-    githubUrl: "https://github.com/kavindisathsarani/BookVault"
+    githubUrl: "https://github.com/kavindisathsarani/BookVault.git"
   },
 
   {
