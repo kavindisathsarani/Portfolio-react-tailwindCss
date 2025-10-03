@@ -1,6 +1,8 @@
 import { CheckCircle2 } from 'lucide-react';
 import { portfolioData } from '../data/portfolio';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
+import profilePic from '../images/edit-pic-profile.jpeg';
+
 
 export function About() {
   const { ref, isVisible } = useIntersectionObserver({ threshold: 0.1 });
@@ -38,7 +40,7 @@ export function About() {
               <div className="aspect-square rounded-2xl bg-gradient-to-br from-blue-600 to-purple-600 p-1">
                 <div className="w-full h-full rounded-2xl bg-gray-100 dark:bg-gray-800 flex items-center justify-center overflow-hidden">
                   <img
-                    src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=800"
+                    src={profilePic}
                     alt="Profile"
                     className="w-full h-full object-cover"
                     loading="lazy"
