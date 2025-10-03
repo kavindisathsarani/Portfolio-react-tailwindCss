@@ -113,53 +113,66 @@ export const portfolioData = {
   ],
 
   projects: [
-    {
-      title: "E-Commerce Platform",
-      description: "Full-featured e-commerce platform with payment integration, inventory management, and analytics dashboard.",
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tags: ["React", "Node.js", "PostgreSQL", "Stripe"],
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Real-Time Chat Application",
-      description: "Scalable chat application with WebSocket support, file sharing, and video calling capabilities.",
-      image: "https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tags: ["React", "Socket.io", "Redis", "WebRTC"],
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Project Management Tool",
-      description: "Collaborative project management tool with Kanban boards, time tracking, and team analytics.",
-      image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tags: ["Next.js", "TypeScript", "MongoDB", "AWS"],
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "AI Content Generator",
-      description: "AI-powered content generation platform using GPT models for marketing copy and blog posts.",
-      image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tags: ["React", "Python", "OpenAI", "FastAPI"],
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Analytics Dashboard",
-      description: "Real-time analytics dashboard with data visualization, custom reports, and export functionality.",
-      image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tags: ["Vue.js", "D3.js", "Node.js", "InfluxDB"],
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "Fitness Tracking App",
-      description: "Mobile-first fitness tracking app with workout plans, nutrition tracking, and progress analytics.",
-      image: "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tags: ["React Native", "Firebase", "Redux", "Node.js"],
-      liveUrl: "#",
-      githubUrl: "#"
-    }
-  ]
+  {
+    title: "GlowUp - Salon Appointment System",
+    description: "Full-stack application to manage salon appointments, customers, services, payments, and analytics dashboards.",
+    image: "https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=800",
+    tags: ["React", "Node.js", "MongoDB", "JWT", "Tailwind"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/kavindisathsarani/GlowUp"
+  },
+   {
+    title: "FuelWise",
+    description: "Mobile app to track fuel usage and expenses with real-time data synchronization and analytics.",
+    image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
+    tags: ["React Native", "Expo", "Firebase", "Tailwind CSS"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/kavindisathsarani/FuelWise"
+  },
+ 
+  {
+    title: "UK E-Commerce Data Analysis",
+    description: "Cleaned and preprocessed UK e-commerce datasets for analytics and data insights using Python.",
+    image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
+    tags: ["Python", "Pandas", "NumPy", "Jupyter Notebook"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/kavindisathsarani/Python-Jupyter"
+  },
+  
+  {
+    title: "BookVault",
+    description: "Digital library management system to organize, discover, and interact with book collections efficiently.",
+    image: "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=800",
+    tags: ["React Native", "Express.js", "TypeScript"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/kavindisathsarani/BookVault"
+  },
+
+  {
+    title: "Recipe Website",
+    description: "Responsive website featuring food recipes with videos, social media integration, and recipe categories.",
+    image: "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=800",
+    tags: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    liveUrl: "https://recipe-site-8070d.web.app",
+    githubUrl: "#"
+  },
+
+   {
+    title: "TailerMate",
+    description: "Tailor shop management system to handle customer orders, garment details, and inventory efficiently.",
+    image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
+    tags: ["Java", "JavaFX", "MySQL", "JDBC", "MVC"],
+    liveUrl: "#",
+    githubUrl: "https://github.com/kavindisathsarani/TailerMate"
+  },
+  
+  {
+    title: "Hotel Website",
+    description: "Modern hotel website with booking forms, contact forms, and visually appealing UI for hotel services.",
+    image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
+    tags: ["HTML", "CSS", "JavaScript", "UI/UX"],
+    liveUrl: "https://hotel-website-ccf75.web.app",
+    githubUrl: "#"
+  }
+]
 };
