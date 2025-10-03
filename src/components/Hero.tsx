@@ -259,35 +259,7 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Add these to your global CSS or Tailwind config */}
-      <style jsx>{`
-        @keyframes float {
-          0%, 100% { transform: translateY(0px) rotate(0deg); }
-          50% { transform: translateY(-20px) rotate(180deg); }
-        }
-        @keyframes gradient-x {
-          0%, 100% { background-position: 0% 50%; }
-          50% { background-position: 100% 50%; }
-        }
-        @keyframes typewriter {
-          from { opacity: 0; }
-          to { opacity: 1; }
-        }
-        .animate-float {
-          animation: float 5s ease-in-out infinite;
-        }
-        .animate-gradient-x {
-          background-size: 200% 200%;
-          animation: gradient-x 3s ease infinite;
-        }
-        .animate-typewriter {
-          opacity: 0;
-          animation: typewriter 0.1s forwards;
-        }
-        .animate-bounce-slow {
-          animation: bounce 2s infinite;
-        }
-      `}</style>
+     
     </section>
   );
 }
