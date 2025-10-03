@@ -228,7 +228,7 @@ export function Hero() {
             </div>
 
             {/* Social Links */}
-            <div className="flex items-center justify-center space-x-8 mb-20 animate-slide-up delay-700">
+            <div className="flex items-center justify-center space-x-3 mb-20 animate-slide-up delay-700">
               {[
                 { icon: Github, href: portfolioData.social.github, color: 'hover:text-gray-300' },
                 { icon: Linkedin, href: portfolioData.social.linkedin, color: 'hover:text-blue-400' },
