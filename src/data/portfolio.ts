@@ -1,5 +1,8 @@
 import glowupImage from "../images/glowup.png"; // adjust path as needed
 import fuelwiseImage from "../images/fuelwise.png"; // adjust path as needed
+import hotelImage from "../images/hotel-website.png"; // adjust path as needed
+import bookvaultImage from "../images/bookvault.png"; // adjust path as needed
+import recipeImage from "../images/recipe.png"; // adjust path as needed
 
 
 export const portfolioData = {
@@ -9,8 +12,8 @@ export const portfolioData = {
   email: "dksmanimendra0@gmail.com",
   location: "Sri Lanka",
   social: {
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
+    github: "https://github.com/kavindisathsarani",
+    linkedin: "https://www.linkedin.com/in/kavindi-sathsarani-manimendra-87387a28b/",
     twitter: "https://twitter.com",
   },
 
@@ -172,19 +175,19 @@ export const portfolioData = {
   {
     title: "BookVault",
     description: "Digital library management system to organize, discover, and interact with book collections efficiently.",
-    image: "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: bookvaultImage,
     tags: ["React Native", "Express.js", "TypeScript"],
-    liveUrl: "#",
+    liveUrl: "https://www.linkedin.com/posts/kavindi-sathsarani-manimendra-87387a28b_fullstack-reactjs-nodejs-activity-7367535095391424512-05ol?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEZuD1cBwdiP_CYo8T7_VDXUNbEw8eLh9PA",
     githubUrl: "https://github.com/kavindisathsarani/BookVault.git"
   },
 
   {
     title: "Recipe Website",
     description: "Responsive website featuring food recipes with videos, social media integration, and recipe categories.",
-    image: "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: recipeImage,
     tags: ["HTML", "CSS", "JavaScript", "Responsive Design"],
     liveUrl: "https://recipe-site-8070d.web.app",
-    githubUrl: "#"
+    githubUrl: "https://github.com/kavindisathsarani/New-Recipe-Site.git"
   },
 
    {
@@ -192,17 +195,17 @@ export const portfolioData = {
     description: "Tailor shop management system to handle customer orders, garment details, and inventory efficiently.",
     image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
     tags: ["Java", "JavaFX", "MySQL", "JDBC", "MVC"],
-    liveUrl: "#",
-    githubUrl: "https://github.com/kavindisathsarani/TailerMate"
+    liveUrl: "https://www.linkedin.com/posts/kavindi-sathsarani-manimendra-87387a28b_java-javafx-softwarearchitecture-activity-7366395299927420929-U5Wc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEZuD1cBwdiP_CYo8T7_VDXUNbEw8eLh9PA",
+    githubUrl: "https://github.com/kavindisathsarani/TailorMate.git"
   },
   
   {
     title: "Hotel Website",
     description: "Modern hotel website with booking forms, contact forms, and visually appealing UI for hotel services.",
-    image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: hotelImage,
     tags: ["HTML", "CSS", "JavaScript", "UI/UX"],
     liveUrl: "https://hotel-website-ccf75.web.app",
-    githubUrl: "#"
+    githubUrl: "https://github.com/kavindisathsarani/Hotel-Website.git"
   }
 ]
 };
