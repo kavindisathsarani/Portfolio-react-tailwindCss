@@ -128,7 +128,7 @@ export function Footer() {
     { icon: Mail, href: `mailto:${portfolioData.email}`, label: 'Email', color: 'hover:bg-red-500 hover:text-white' },
   ];
 
-  const quickLinks = ['about', 'services', 'skills', 'experience', 'projects', 'contact'];
+  const quickLinks = ['about', 'services', 'skills', 'educations', 'projects', 'contact'];
 
   return (
     <footer className="bg-gradient-to-br from-slate-900 via-purple-900/20 to-blue-900/20 dark:from-gray-900 dark:via-purple-900/10 dark:to-blue-900/10 relative overflow-hidden border-t border-gray-200/50 dark:border-gray-800/50">

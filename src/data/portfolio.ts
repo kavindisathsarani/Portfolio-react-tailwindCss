@@ -1,8 +1,9 @@
-import glowupImage from "../images/glowup.png"; // adjust path as needed
-import fuelwiseImage from "../images/fuelwise.png"; // adjust path as needed
-import hotelImage from "../images/hotel-website.png"; // adjust path as needed
-import bookvaultImage from "../images/bookvault.png"; // adjust path as needed
-import recipeImage from "../images/recipe.png"; // adjust path as needed
+import glowupImage from "../images/glowup.png"; 
+import fuelwiseImage from "../images/fuelwise.png"; 
+import hotelImage from "../images/hotel-website.png"; 
+import bookvaultImage from "../images/bookvault.png"; 
+import recipeImage from "../images/recipe.png"; 
+import tailorImage from "../images/tailerMate.png"; 
 
 
 export const portfolioData = {
@@ -193,7 +194,7 @@ export const portfolioData = {
    {
     title: "TailerMate",
     description: "Tailor shop management system to handle customer orders, garment details, and inventory efficiently.",
-    image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: tailorImage,
     tags: ["Java", "JavaFX", "MySQL", "JDBC", "MVC"],
     liveUrl: "https://www.linkedin.com/posts/kavindi-sathsarani-manimendra-87387a28b_java-javafx-softwarearchitecture-activity-7366395299927420929-U5Wc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEZuD1cBwdiP_CYo8T7_VDXUNbEw8eLh9PA",
     githubUrl: "https://github.com/kavindisathsarani/TailorMate.git"
