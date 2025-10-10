@@ -1,3 +1,7 @@
+import glowupImage from "../images/glowup.png"; // adjust path as needed
+import fuelwiseImage from "../images/fuelwise.png"; // adjust path as needed
+
+
 export const portfolioData = {
   name: "Kavindi Sathsarani",
   title: "Full-Stack Developer",
@@ -142,17 +146,17 @@ export const portfolioData = {
   {
     title: "GlowUp - Salon Appointment System",
     description: "Full-stack application to manage salon appointments, customers, services, payments, and analytics dashboards.",
-    image: "https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: glowupImage,
     tags: ["React", "Node.js", "MongoDB", "JWT", "Tailwind"],
-    liveUrl: "#",
+    liveUrl: "https://youtu.be/P8EgOeIKuuU?si=bIwhQ_fSjl1OyWdQ",
     githubUrl: "https://github.com/kavindisathsarani/GlowUp-Salon.git"
   },
    {
     title: "FuelWise",
     description: "Mobile app to track fuel usage and expenses with real-time data synchronization and analytics.",
-    image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: fuelwiseImage,
     tags: ["React Native", "Expo", "Firebase", "Tailwind CSS"],
-    liveUrl: "#",
+    liveUrl: "https://youtu.be/n5RnXNIr-hA?si=mSKE432NIB-XQow6",
     githubUrl: "https://github.com/kavindisathsarani/FuelWise"
   },
  
@@ -162,7 +166,7 @@ export const portfolioData = {
     image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
     tags: ["Python", "Pandas", "NumPy", "Jupyter Notebook"],
     liveUrl: "#",
-    githubUrl: "https://github.com/kavindisathsarani/Python-Jupyter"
+    githubUrl: "https://github.com/Chathura0607/Retail_Mind.git"
   },
   
   {
